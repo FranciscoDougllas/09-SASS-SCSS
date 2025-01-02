@@ -1,0 +1,43 @@
+$cor1: #475344;
+$cor2: #0c0c0c;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $cor1;
+
+    h1{
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        background-color: $cor2;
+    }
+}
+
+main{
+    width: 500px;
+    height: 600px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+    background-color: $cor2;
+
+    .calculadora{
+        h2{
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: $cor1;
+        }
+    }
+}
