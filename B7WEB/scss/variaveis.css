@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #475344;
+}
+body h1 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #0c0c0c;
+}
+
+main {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #0c0c0c;
+}
+main .calculadora h2 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #475344;
+}/*# sourceMappingURL=variaveis.css.map */
